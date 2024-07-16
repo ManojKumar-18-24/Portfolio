@@ -1,0 +1,310 @@
+header {
+    background-color: #5755f1;
+    border-radius: 5px;
+    height: 10vh;
+    width:99vw;
+    top:0;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav-bar:hover {
+    box-shadow: 10px 10px 5px rgba(15, 188, 227, 0.5);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    padding: 7px;
+    align-items: center;
+    position: sticky;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li:hover {
+    font-size: large;
+    cursor: pointer;
+    color: #6caaec;
+}
+
+.leftpart {
+    font-weight: 2rem;
+}
+
+.leftpart img {
+    margin-top: 5px;
+    height: 6vh;
+    width: 3vw;
+    object-fit: fill;
+    border-radius: 255px;
+}
+
+.rightpart ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.secondsection {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondsection div {
+    width: 30%;
+    min-height: 40vh;
+    align-items: center;
+}
+
+.left {
+    width: 45%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    padding-top: 5%;
+    /* row-gap: 3vh; */
+}
+
+.button {
+    display: flex;
+    column-gap: 10px;
+    height: 3vh;
+}
+
+button {
+    background-color: rgb(95, 95, 234);
+    color: blanchedalmond;
+    margin: 5px;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: large;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(15, 188, 227, 0.5);
+}
+
+.left div {
+    height: 3vh;
+    align-content: center;
+}
+
+.right {
+    border: none;
+    align-content: center;
+}
+
+.right img {
+    width: 100%;
+    min-height: 60vh;
+    border-radius: 5px;
+    background: none;
+}
+
+.boxer {
+    /* border:2px solid red; */
+    padding: 20px 20px;
+    width: 92vw;
+    margin: auto;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    background-color: #3a38c3;
+    position: relative;
+}
+
+.boxer:hover {
+    top: 5px;
+    box-shadow: 10px 10px 5px rgb(142, 142, 240);
+}
+
+img:hover {
+    box-shadow: 10px 10px 5px rgba(15, 188, 227, 0.5);
+}
+
+.edu-img {
+    margin-top: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    width: 90vw;
+}
+
+.img {
+    height: 2vh;
+}
+
+.education {
+    /* border: 2px solid red; */
+    margin-top: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    width: 90vw;
+}
+
+.marg {
+    /* margin-top: 5vh; */
+    background-color: rgb(15, 114, 202);
+    height: 0.5vh;
+    width: 87vw;
+    margin: auto;
+}
+
+.edu-box {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* column-gap: 4.5vh; */
+}
+
+.box {
+    width: 29vw;
+    /* height: 50vh; */
+    /* border: 2px solid white; */
+}
+
+.high {
+    background-color: rgb(15, 114, 202);
+    height: 10vh;
+    width: 1%;
+}
+
+.info {
+    font-size: x-large;
+}
+
+.edu {
+    width: 87vw;
+    margin: auto;
+    display: flex;
+}
+
+.img {
+    width: 29vw;
+}
+
+.img img {
+    height: 4vh;
+    width: 4vw;
+    object-fit: fill;
+}
+
+.img img:hover {
+    height: 6vh;
+    width: 6vw;
+    object-fit: fill;
+}
+
+.img2 {
+    width: 29vw;
+}
+
+.img2 img {
+    height: 4vh;
+    width: 4vw;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+.img2 img:hover {
+    height: 6vh;
+    width: 6vw;
+    object-fit: fill;
+    cursor: pointer;
+}
+
+h1 {
+    padding-left: 4vw;
+    color: #202043;
+}
+
+h6 {
+    padding-left: 4vw;
+    color: #202043;
+}
+
+h2{
+    padding-left: 4vw;
+    color: #202043;            
+}
+
+section h6{
+    margin-top: 0;
+    color:white;
+    line-height: 5vh;
+    font-size: large;
+}
+
+.git-button{
+    margin-top: 0;
+    margin-right: 10vw;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover{
+    color:rgb(3, 55, 64);
+}
+footer {
+    height: 30vh;
+    width: 98vw;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: #202043;
+    box-shadow: 0px -5px rgb(44, 44, 170);
+    position:relative;
+}
+
+.fh{
+    top:15%;
+    left:15%;
+    font-size: xxx-large;
+    position: relative;
+    width: 70vw;
+}
+
+.sh{
+    top:25%;
+    left:15%;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: 70vw;
+    column-gap: 2vw;
+}
+
+.sh a img{
+    height: 3.5vh;
+    width: 3.5vw;
+    object-fit: fill;
+}
+
+.sh a img:hover{
+    box-shadow: none;
+}   
+
+.th{
+    top:35%;
+    left:40%;
+    width: 50vw;
+    position: relative;  
+    align-content: center;
+}
+
+@media (max-width:1600) {
+    .left div{
+        height:auto;
+    }
+}
